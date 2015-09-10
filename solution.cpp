@@ -108,7 +108,7 @@ int main() {
 		return 1;  // error
 	}
 	
-	bool primes[max + 1];
+	bool primes[max + 1];				// This particular part gives an error in Visual Studio, but if I hard code it, it works, no idea how to fix
 	sieve(max + 1, primes);
 
 	
